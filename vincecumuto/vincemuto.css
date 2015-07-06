@@ -1,0 +1,524 @@
+﻿*{
+margin: 0px;
+padding: 0px;
+}
+
+.clearfix:after {
+
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.c-header {
+  background-color: white;
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+
+}
+.c-header_menu {
+  background: url("menuIcon.png");
+  background-size: 20px 13px;
+  width: 6.25%;
+  height: 13px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+.c_header_center {
+  text-align: center;
+}
+
+.c-header_logo {
+
+  height: 30px;
+  margin-left: 37px;
+  margin-top: 13px;
+  margin-left: auto;
+  /*margin-right: auto;*/
+
+}
+.c-logo-image {
+  width: 127.5px;
+  height: 30px;
+}
+.c-header_seperator {
+  background-color: #e5e5e5;
+  width: 2px;
+  height: 20px;
+  margin-top: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.c-header_arrow {
+  background: url("dropdownArrow.png");
+  background-size: 15px 8px;
+  width: 15px;
+  height: 8px;
+  background-repeat: no-repeat;
+  margin-top: 24px;
+  margin-left: 0px;
+  margin-right: auto;
+
+}
+
+.c-oval-div {
+  background: black;
+  width: 25px;
+  border-radius: 6px;
+  height: 15px;
+  color: white;
+}
+.c-header_bag {
+  background: url("bagIcon.png");
+    background-size: 19px 24px;
+    width: 19px;
+    height: 24px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 15px;
+    padding-top: 17px;
+    padding-left: 6px;
+}
+
+/*shipping bar*/
+.c-domestic-shipping {
+  background-color: #eaeaea;
+  text-align: center;
+  font-weight: normal;
+  font-size: 11px;
+  color: #000000;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-top: 1px solid gray;
+
+}
+.c-domestic-shipping__link {
+  color: black;
+
+}
+
+/*home-cart bar*/
+.c-home-cart {
+  font-weight: normal;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+.c-home-cart__black {
+  color: #000000;
+  margin-left: 10px;
+
+}
+.c-home-cart__gray {
+  color: #d9d9d9;
+  margin-left: 10px;
+}
+
+/*your bag and total*/
+.c-yourbag-total {
+  padding: 8px 0px;
+
+}
+.c-yourbag-total__left {
+  float: left;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: normal;
+
+}
+.c-yourbag-total__right {
+  float: right;
+  margin-right: 10px;
+  font-size: 14px;
+
+}
+.boldtext {
+  font-weight: bold;
+  font-size: 16px;
+
+
+}
+
+/*CHEKOUT*/
+.chekout {
+  margin: 15px 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 15px 0px;
+}
+
+/*display*/
+.c-display-main-container {
+  margin: 10px 10px;
+  background-color: white;
+
+
+}
+.c-display-section {
+  padding: 10px 0px;
+  border-top: 1px solid #e5e5e5;
+}
+
+/*left part*/
+.c-display-section__left-picture {
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  /*margin-left: 5px;*/
+
+}
+.left-picture {
+width: 80px;
+height: 80px;
+}
+.c-display-section__remove {
+  color: #000000;
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: arial;
+  margin-top: 17px;
+  margin-left: 15px;
+
+}
+.blackremove {
+  color: black;
+}
+
+/*right part*/
+.c-display-section__right-part {
+  float: right;
+  /*margin-right: 5px;*/
+
+}
+.blaktext {
+  color: #010101;
+  font-size: 12px;
+  font-family: arial;
+}
+.pinktext {
+  color: #ff1493;
+  font-size: 14px;
+  font-family: arial;
+}
+.linethrough {
+  text-decoration: line-through;
+}
+
+
+/*center part*/
+.c-display-section__center-part {
+  display: table;
+  margin-left: 0px;
+
+}
+/*center part styling*/
+.name {
+  color: #010101;
+  font-size: 14px;
+  font-weight: light;
+  letter-spacing: 1px;
+  font-family: arial;
+  padding-bottom: 2px;
+}
+.in-stock {
+  color: #ff1493;
+  font-size: 14px;
+  font-weight: regular;
+  font-family: arial;
+    padding: 2px 0px;
+
+}
+.item-number {
+  color: #bbbbbb;
+  font-size: 14px;
+  font-weight: regular;
+  font-family: arial;
+    padding: 2px 0px;
+
+}
+
+.color {
+  color: #010101;
+  font-size: 14px;
+  font-weight: regular;
+  font-family: arial;
+    padding: 2px 0px;
+
+}
+.size {
+  color: #010101;
+  font-size: 14px;
+  font-weight: regular;
+  font-family: arial;
+    padding: 2px 0px;
+
+}
+/*separator and USD*/
+
+.separate-blok{
+  width: 70%;
+  box-sizing: border-box;
+  margin-left: 30%;
+  display: inline-block;
+}
+.quantity-block {
+
+  display: inline-block;
+  padding: 4px 0px;
+  margin-top: 2px;
+
+}
+.draw-block {
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  padding: 5px;
+  height: 30px;
+  width: 65px;
+  line-height: 30px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+
+}
+.c-arrowdown {
+  width: 14px;
+  height: 12px;
+  margin-left: 5px;
+  float: right;
+  margin-top: 9px;
+
+}
+
+.USD{
+  display: inline-block;
+  float: right;
+  line-height: 40px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: regular;
+  font-family: arial;
+  font-weight: bold;
+
+}
+/*order summary*/
+.c-order-summary {
+  border-top: 1px solid #e5e5e5;
+  margin: 0px 10px;
+  padding-bottom: 12px;
+  color: #000000;
+  font-family: arial;
+
+
+}
+.c-order-summary__heading {
+
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-top: 16px;
+
+}
+.c-order-summary__subtotal {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 2px 0px;
+
+}
+.c-order-summary__shipping {
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 1;
+  padding: 2px 0px;
+}
+.c-order-summary__estimated {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.dots-overflow {
+  overflow: hidden;
+  padding-left: 3px;
+}
+/*enter coupon code*/
+.c-coupon-code {
+  margin: 0px 10px;
+}
+.c-coupon-code__entercode {
+  font-size: 16px;
+  height: 40px;
+  width: 60.55%;
+  border: 1px solid #d9d9d9;
+  line-height: 40px;
+
+}
+.placeholder {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d9d9d9;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.c-coupon-code__Apply {
+  text-align: center;
+  background-color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  height: 40px;
+  width: 20.83%;
+  border: 2px solid #000000;
+  line-height: 40px;
+  cursor: pointer;
+
+}
+.chekout {
+  margin: 15px 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 15px 0px;
+}
+.c-continue {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+
+}
+.c-14 {
+  font-size: 16px;
+}
+
+/*customer service*/
+.c-customer-service {
+  background-color: #bbbbbb;
+  color: black;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 16px;
+
+}
+.centered {
+  text-align: center;
+}
+.heading {
+  padding: 16px 0px;
+}
+.top-8 {
+  margin-top: 8px;
+}
+.top-12 {
+  margin-top: 12px;
+  letter-spacing: 1px;
+}
+.top-10 {
+  margin-top: 10px;
+}
+.blacklink {
+  color: black;
+}
+.separator {
+  margin-top: 17px;
+  background-color: #d9d9d9;
+  height: 2px;
+}
+
+
+/*footer*/
+.c-footer {
+  margin: 10px 10px;
+}
+.c-footer__newsleter {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  padding: 10px 0px;
+
+}
+
+.c-footer__blank-join {
+  /*padding: 10px 0px;*/
+
+}
+.blank {
+  float: left;
+  width: 70%;
+  height: 40px;
+  border: 2px solid #e5e5e5;
+}
+.join {
+  float: right;
+  width: 22%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+.c-footer__images {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+.c-icon-images {
+  height: 18px;
+  width: 18px;
+  margin-left: 22px;
+  margin-right: 22px;
+
+}
+
+.c-footer__contact {
+  text-align: center;
+  padding: 8px 0px;
+  font-size: 12px;
+  letter-spacing: 1px;
+
+}
+.c-footer__logo {
+  text-align: center;
+  padding: 8px 0px;
+
+}
+.lastlogo{
+  width: 34px;
+  height: 35px;
+
+}
+.c-footer__copyright {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 10px;
+
+}

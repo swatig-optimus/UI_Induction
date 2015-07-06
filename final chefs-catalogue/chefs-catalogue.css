@@ -1,0 +1,319 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+.clearfix:after {
+
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.c-main-div {
+  padding: 10px;
+
+}
+.c-menu {
+    background: url("MENU ICON 50 X 39 PX.png");
+    background-size: 27.5px;
+    width: 21px;
+    height: 27.5px;
+    background-repeat: no-repeat;
+    float: left;
+    padding-top:30px;
+}
+.c-menu-text{font-size:9px;font-weight:bold;}
+.c-search-and-cart {
+    float: right;
+    margin-right: 5px;
+}
+.c-search {
+    background: url("FIND ICON 42X42 PX.png");
+    background-size: 24px;
+ padding-top:30px;   width: 24px;
+    height: 24px;
+    background-repeat:no-repeat;
+    float: left;
+    margin-right: 50px;
+}
+.c-cart {
+    background: url("CART 42X42 PX.png");
+padding-top:30px;    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    background-repeat:no-repeat;
+    float: right;margin-right:10px;
+}
+.c-logo {
+    text-align: center;
+
+}
+.c-logo-image {
+    height: 22px;
+
+    width: 85px;
+
+}
+
+.shipping-details {
+    height: 46px;
+    background: #cc0000;
+    padding-top: 11px;padding-left:5px;padding-right:5px; line-height: 20px;   text-shadow: 2px 2px #940000; margin-top:15px;
+}
+.c-left-standard-shipping {
+
+    font-face: arial;
+    size: 16px;
+    color: #ffffff;
+    float: left;
+
+}
+.c-free-shipping {
+  margin-bottom: 2px;
+  line-height:1;
+  font-weight: bold;
+
+}
+.c-left-on-order {
+
+    font-face: arial;
+    font-weight: regular;
+    size: 12px;
+    color: #ffffff;
+    line-height:1;
+
+}
+.c-right-return-shipping {
+
+    font-face: arial;
+    font-weight: regular;
+    size: 12px;
+    color: #ffffff;
+    float: right;
+}
+.c-free-return {
+  line-height: 16px;
+
+}
+
+.c-kitchen-tool-crock-background {
+   height: 150px;
+   background: url("BACHGROUND IMAGE 1.png");
+   background-size: 100% 170px;
+   background-repeat: no-repeat;
+   padding: 10px;
+
+}
+.tool-crock-buy-now-label {
+  height: 32px;
+  background-color: #ffffff;
+  opacity: 0.85;
+
+}
+
+.c-tool-crock {
+  font-face: arial;
+  font-weight: bold;
+  size: 16px;
+  color: #000000;
+  float: left;
+  margin: 7px;
+
+}
+
+.c-buy-now {
+  font-face: arial;
+  font-weight: bold;
+  size: 12px;
+  color: #cc0000;
+  float: right;
+  margin: 7px;
+
+}
+.c-button-container {
+  background-color: white;
+  padding: 10px;
+
+}
+.c-left-red {
+  width: 48%;
+background: linear-gradient(#9a170a, #cc0000);text-shadow: 2px 2px #520000;  height: 35px;
+  background-color: #780000;border-radius:2.5px;
+  float: left;
+  text-align: center;
+  font-face: arial;
+  font-weight: bold;
+  size: 16px;
+  color: #ffffff;
+  line-height: 35px;
+
+
+
+
+}
+.c-right-green {
+  width: 48%;background: linear-gradient(#5a6c24, #738b02);
+text-shadow: 2px 2px #2a3505;  height: 35px;border-radius:2.5px;
+  background-color: #734b02;
+  float: right;
+  text-align: center;
+  font-face: arial;
+  font-weight: bold;
+  size: 16px;
+  color: #ffffff;
+  line-height: 35px;
+
+}
+
+.c-top-rated {
+  color: #171717;
+  padding-left: 10px;
+  margin-left: 2px;
+  padding-top: 6px;
+  text-align: left;
+  font-weight: bold;
+  size: 16px;
+}
+
+.divider {
+  height: 2px;
+  background-color: #dadada;
+  margin: 10px;
+}
+.c-images-container {
+
+}
+.c-images-row {
+  padding: 0px 10px;
+  margin: 5px;
+
+
+}
+.c-image-left {
+  float: left;
+  width: 48%;
+  box-sizing: border-box;
+  padding: 0px 10px;
+
+
+}
+.c-image-right {
+  float: right;
+  width: 48%;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+.c-product-name {
+  font-weight: bold;
+  size: 14px;
+  color: #000000;
+
+}
+.c-star{
+  background-image: url("BlankStar_3.png");
+  width: 61px;
+  height: 14px;
+  background-size: 12px 12px;
+  background-repeat-y: no-repeat;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.c-star-inner {
+  background-image: url("FULL STAR ICON 24 X 24 PX.png");
+  width: 78%;
+  height: 14px;
+  background-size: 12px 12px;
+  background-repeat-y: no-repeat;
+}
+.c-price {
+  font-weight: bold;
+  font-size: 16px;
+
+}
+.c-savings {
+  font-weight: bold;
+  font-size: 12px;
+  color: #ee0101;
+}
+.green {
+  color: #738b02;
+}
+.black {
+  color: #000000;
+}
+.red {
+  color: #ee0101;
+
+}
+.c-back-to-top-icon {
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+
+}
+.c-icon {
+  height: 16px;
+  width: 16px;
+}
+.c-backtotop-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+.shop-line {
+  background-color: #ebebeb;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 20px;
+  line-height: 28px;
+
+
+}
+.help-line {
+  background-color: #ebebeb;
+  color: #195796;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 7px
+
+}
+.c-4-icons {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.c-icon-images {
+  width: 33px;
+  height: 33px;
+  MARGIN-LEFT: 17px;
+
+}
+.c-info-block {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.c-info {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.c-copyright {
+    margin-top: 40px;
+    font-family: arial;
+    font-weight: regular;
+    font-size: 10px;
+    color: #515155;
+    text-align: center;
+}
+
+.c-outer {
+  height: 150px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}

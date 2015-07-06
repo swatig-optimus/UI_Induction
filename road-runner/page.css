@@ -1,0 +1,298 @@
+body {
+  margin: 0px;
+}
+.c-body-wrapper {
+  padding: 0 15px;
+  background-color: #eae7e7;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+.findLocationBar{
+  background-image: url("headerTopImage.png");
+  text-align: center;
+  padding: 4px 0;
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+
+}
+.c-find-location-img {
+  //width: 18px;
+
+}
+.c-find-location-text {
+  font-size: 16px;
+  vertical-align: super;
+  color:white;
+  font-weight: bolder;
+}
+.searchBar{
+  background-color: white;
+  padding-top: 20px;
+}
+.div-img-search-left{
+  float:left;
+  margin-right:16%;
+  margin-left: 1%;
+  margin-bottom: 20px;
+  }
+.imgsearchleft{
+  margin-left:5%;
+  }
+
+.div-img-logo-center{
+    float:left;
+    margin-bottom: 20px;
+  }
+.imglogocenter {
+  margin-left:16%;
+ }
+
+ .div-img-right{
+float:right;
+margin-right: 4%;
+margin-right: 20px;
+
+ }
+.c-img-call-right{
+
+//margin-left: 5px;
+margin-right: 50px;
+}
+.c-img-cart-right{
+
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.div-nameAndReviews{
+      background-color: #eae7e7;
+  }
+.left-nameAndReviews{
+      float:left;
+      padding-top:10px;
+      margin-left: 10px;
+    }
+.right-nameAndReviews{
+      margin-right: 10px;
+      padding-top: 18px;
+
+    }
+.c-text-bold{
+    color: #464749;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .c-text-regular{
+      color: #464749;
+      font-family: verdana;
+      font-weight: regular;
+      font-size: 12px;
+    }
+
+  .c-star-image{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #f4f3f3;
+    background-color:white;
+    float: right;
+  }
+  .c-read-reviews{
+    clear:both;
+    color:#005cae;
+    float: right;
+    font-family: verdana;
+    font-weight: regular;
+    font-size: 10px;
+    margin-right: 36px;
+    margin-top: 5px;
+
+  }
+  #red{
+    color: #ff2812;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+.display{
+    background-color:white;
+  }
+
+.stability {
+    margin-top:10px;
+    margin-left:10px;
+    display: inline;
+  }
+
+.playvideo {
+    float:right;
+
+  }
+.shoeDisplay{
+  width:295px;
+  height:235px;
+  padding:10px;
+}
+.div-zoom-icon{
+  float: right;
+  margin-right: 40px;
+  display: inline;
+
+}
+.img-zoom-icon{
+  width: 14px;
+  height: 14px;
+
+}
+.div-text-zoom{
+  clear: both;
+  float: right;
+  margin-right: 10px;
+  display:inline;
+}
+.text-zoom{
+
+  color: #005cae;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+.div-shoesViews{
+  margin-top: 43px;
+  clear:both;
+  display:inline;
+}
+.imgs-shoesViews{
+  clear:both;
+  width: 57px;
+  height: 45px;
+}
+
+.shoeProperties{
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .prices{
+    clear:both;
+  }
+.black{
+    color: #333333;
+    text-decoration: line-through;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+  }
+.red{
+    color: #ff2812;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+  }
+.blue{
+    color: #005cae;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .common-band {
+    background-image: url("commonBand_bg_colorSize.png");
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 11px;
+    padding-top: 15px;
+    font-face: verdana;
+    font-weight: bold;
+    size: 15px;
+    color: #464749;
+    margin-left: 10px;
+}
+
+.options {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.optional-color {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.size-selector {
+    padding: 20px;
+}
+
+.choose-size {
+    width: 80px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    font-face: verdana;
+    font-weight: bold;
+    size: 12px;
+    color: #333333;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 10px;
+    float:left;
+    margin-bottom:10px;
+}
+
+.inner-size-selector {
+    clear:both;
+    display:block;
+}
+
+.selected-box {
+    width: 80px;
+    height: 35px;
+    border: 1px solid #d971df;
+    font-face: verdana;
+    font-weight: bold;
+    size: 12px;
+    color: #ffffff;
+    background: #ff8413;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 10px;
+    float:left;
+    margin-bottom:10px;
+    box-sizing: border-box;
+}
+
+.size-chart {
+    width: 80px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    font-face: verdana;
+    font-weight: bold;
+    size: 12px;
+    color: #ff8413;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 10px;
+    float:left;
+    margin-bottom:10px;
+}
+
+.clearfix {
+    display: inline-block;
+    clear:both;
+
+
+}
+.clearfix {
+    display: block;
+}
+/* Clear fix css*/

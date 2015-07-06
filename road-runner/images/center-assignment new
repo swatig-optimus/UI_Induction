@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pos{
+background-color:yellow;
+border:10px solid black;
+width:250px;
+height:250px;
+text-align:center;
+
+box-sizing:border-box;
+
+position:absolute;
+left:50%;
+top:50%;
+//margin:0 auto;
+
+}
+</style>
+</head>
+<body>
+
+<div class = "pos">The block is in its absolute position.</div>
+</body>
+</html>

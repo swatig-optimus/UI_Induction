@@ -1,0 +1,94 @@
+
+
+.clearfix:after {
+
+    content: '';
+
+    display: table;
+
+    clear: both;
+}
+
+.c-main-div {
+}
+.c-menu {
+    background: url("MENU ICON 50 X 39 PX.png");
+    background-size: 25px;
+    width: 25px; 
+    height: 20px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 5px;
+}
+.c-search-and-cart {
+    float: right;
+    margin-right: 5px;
+}
+.c-search {
+    background: url("FIND ICON 42X42 PX.png");
+    background-size: 21px;
+    width: 21px; 
+    height: 21px;
+    background-repeat:no-repeat;
+    float: left;
+}
+.c-cart {
+    background: url("CART 42X42 PX.png");
+    background-size: 21px;
+    width: 21px; 
+    height: 21px;
+    background-repeat:no-repeat;
+    float: right;
+}
+.c-logo {
+    text-align: center;
+
+}
+.c-logo-image {
+    height: 22px;
+
+    width: 85px;
+
+}
+
+.shipping-details {
+    height: 46px;
+    background: #cc0000;
+    padding: 10px 10px; 
+}
+.c-left-standard-shipping {
+    
+font-face: arial;
+
+    font-weight: bold;
+
+    size: 16px;
+
+    color: #ffffff;
+
+}
+.c-right-return-shipping {
+
+    font-face: arial;
+
+    font-weight: regular;
+
+    size: 12px;
+
+    color: #ffffff;
+    float: right;
+}
+.c-left-on-order {
+
+    font-face: arial;
+
+    font-weight: regular;
+
+    size: 12px;
+
+    color: #ffffff;
+
+    float: left;
+    
+}
+

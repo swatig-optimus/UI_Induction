@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<a href="Assignment1/assgn1.html">Assignment 1</a>
+<a href="#">Assignment 2</a>
+<div class = "first"> <h3 style="text-align:center">optimus</h3> Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.
+Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.
+Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.
+Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.</div>
+<div class = "second"> <h3 style="text-align:left; color:green">oPTIMUS</h3>Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.
+Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.
+Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.
+Cross-platform mobile app development, design and migration services for iOS, Android, Windows Phone, BlackBerry and HTML5.</div>
+
+
+</body>
+</html>
