@@ -366,7 +366,7 @@ height: 80px;
 .c-coupon-code__entercode {
   font-size: 16px;
   height: 40px;
-  width: 60.55%;
+  width: 70.55%;
   border: 1px solid #d9d9d9;
   line-height: 40px;
 
@@ -385,7 +385,7 @@ height: 80px;
   font-size: 14px;
   font-weight: lighter;
   height: 40px;
-  width: 20.83%;
+  width: 25.83%;
   border: 2px solid #000000;
   line-height: 40px;
   cursor: pointer;
@@ -467,13 +467,13 @@ height: 80px;
 }
 .blank {
   float: left;
-  width: 70%;
+  width: 70.55%;
   height: 40px;
   border: 2px solid #e5e5e5;
 }
 .join {
   float: right;
-  width: 22%;
+  width: 25.83%;
   height: 40px;
   background-color: black;
   color: white;
@@ -489,14 +489,49 @@ height: 80px;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+.c-footer-images {
+  margin: 0px 20px;
+  display: inline-block;
+}
+.a {
+  text-decoration: none;
+}
+.facebook {
+  background: url("facebook.png");
+  width: 9px;
+  height: 20px;
+  background-size: 9px;
+  background-repeat: no-repeat;
 
 }
-.c-icon-images {
-  height: 18px;
-  width: 18px;
-  margin-left: 22px;
-  margin-right: 22px;
-
+.pinterest {
+  background: url("pinterest.png");
+  width: 16px;
+  height: 20px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+}
+.twitter {
+  background: url("twitter.png");
+  width: 25px;
+  height: 20px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+.youtube {
+  background: url("youtube.png");
+  width: 17px;
+  height: 20px;
+  background-size: 17px;
+  background-repeat: no-repeat;
+}
+.instagram {
+  background: url("instagram.png");
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  background-repeat: no-repeat;
 }
 
 .c-footer__contact {
