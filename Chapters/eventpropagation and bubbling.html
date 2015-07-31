@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+.parent{
+    height: 40px;
+    background-color: yellow;
+
+}
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</script>
+
+
+</head>
+<body>
+    <div class="parent">
+        <input type="checkbox" class="check" checked>click anywhere
+    </div>
+
+    <script>
+
+    $(document).ready(function(){
+
+        function function1($parent) {
+
+            $parent.on('click', function() {
+                if($(this).find(".check").prop('checked')===true) {
+                    $parent.find(".check").prop('checked',false).trigger('change');
+                } else {
+                    $(this).find(".check").prop('checked',true).trigger('change');
+                }
+            });
+        }
+
+        function1($('.parent'));
+
+        $(".check").click(function(){
+            event.stopPropagation();
+            // function1($(this).parent('.parent'));
+        }).on('change', function() {
+            alert(45);
+        });
+
+        // $('.check').on('change', function() {
+        //     // alert(45);
+        // });
+
+    });
+
+    </script>
+</body>
+</html>
